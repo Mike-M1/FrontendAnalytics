@@ -14,7 +14,7 @@ export default function JunkDrawer() {
             <div className="max-w-6xl mx-auto">
                 <div className="space-y-12">
                     {/* FAQ 1 */}
-                    <div className="flex flex-col lg:flex-row gap-8">
+                    <div className="flex flex-col lg:flex-row gap-6 lg:gap-8">
                         <div className="lg:w-1/3">
                             <h3 className="text-xl font-bold text-black">
                                 We don&apos;t know how to make our house what we want?
@@ -28,7 +28,7 @@ export default function JunkDrawer() {
                     </div>
 
                     {/* FAQ 2 */}
-                    <div className="flex flex-col lg:flex-row gap-8">
+                    <div className="flex flex-col lg:flex-row gap-6 lg:gap-8">
                         <div className="lg:w-1/3">
                             <h3 className="text-xl font-bold text-black">
                                 But will it cost too much money?
@@ -42,7 +42,7 @@ export default function JunkDrawer() {
                     </div>
 
                     {/* FAQ 3 */}
-                    <div className="flex flex-col lg:flex-row gap-8">
+                    <div className="flex flex-col lg:flex-row gap-6 lg:gap-8">
                         <div className="lg:w-1/3">
                             <h3 className="text-xl font-bold text-black">
                                 Aren&apos;t construction projects disruptive and, generally, kind of a headache?
@@ -56,7 +56,7 @@ export default function JunkDrawer() {
                     </div>
 
                     {/* FAQ 4 */}
-                    <div className="flex flex-col lg:flex-row gap-8">
+                    <div className="flex flex-col lg:flex-row gap-6 lg:gap-8">
                         <div className="lg:w-1/3">
                             <h3 className="text-xl font-bold text-black">
                                 I don&apos;t want to make a poor decision...

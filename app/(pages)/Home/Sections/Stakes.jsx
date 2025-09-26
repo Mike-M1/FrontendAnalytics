@@ -2,17 +2,17 @@ import React from 'react'
 
 export default function Stakes() {
     return (
-        <div className="grid grid-cols-2 h-screen">
+        <div className="grid grid-cols-1 lg:grid-cols-2 min-h-screen">
             {/* Top Left - White background with black text */}
-            <div className="bg-white flex items-center justify-center p-12">
-                <h2 className="text-4xl lg:text-5xl font-bold text-black text-left leading-tight">
+            <div className="bg-white flex items-center justify-center p-6 lg:p-12">
+                <h2 className="text-3xl lg:text-5xl font-bold text-black text-center lg:text-left leading-tight">
                     When your home doesn&apos;t work, life feels harder.
                 </h2>
             </div>
 
             {/* Top Right - Black background with white text */}
-            <div className="bg-black text-white flex items-center justify-center p-12">
-                <ul className="space-y-4 text-lg">
+            <div className="bg-black text-white flex items-center justify-center p-6 lg:p-12">
+                <ul className="space-y-4 text-base lg:text-lg">
                     <li className="flex items-start">
                         <span className="w-2 h-2 bg-white rounded-full mt-3 mr-4 flex-shrink-0"></span>
                         Is your home helping you make great memories?
@@ -68,8 +68,8 @@ export default function Stakes() {
             </div>
 
             {/* Bottom Right - White background with black text */}
-            <div className="bg-white flex items-center justify-center p-12">
-                <ul className="space-y-4 text-lg">
+            <div className="bg-white flex items-center justify-center p-6 lg:p-12">
+                <ul className="space-y-4 text-base lg:text-lg">
                     <li className="flex items-start">
                         <span className="w-2 h-2 bg-black rounded-full mt-3 mr-4 flex-shrink-0"></span>
                         Make your home the place where everyone wants to be.

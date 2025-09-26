@@ -2,9 +2,9 @@ import React from 'react'
 
 export default function Extra1() {
     return (
-        <div className="flex flex-col lg:flex-row min-h-screen">
+        <div className="flex flex-col lg:flex-row">
             {/* Left Section - Company Values (White Background) */}
-            <div className="lg:w-1/2 bg-white p-12">
+            <div className="lg:w-1/2 bg-white p-6 lg:p-12">
                 <div className="max-w-lg mx-auto">
                     {/* Main Heading */}
                     <h2 className="text-4xl lg:text-5xl font-bold text-red-600 mb-8">
@@ -73,7 +73,7 @@ export default function Extra1() {
             </div>
 
             {/* Right Section - Blog Section (Black Background) */}
-            <div className="lg:w-1/2 bg-black text-white p-12">
+            <div className="lg:w-1/2 bg-black text-white p-6 lg:p-12">
                 <div className="max-w-lg mx-auto">
                     {/* Section Heading */}
                     <h2 className="text-4xl lg:text-5xl font-bold text-white mb-12">

@@ -15,8 +15,8 @@ export default function Plan() {
 
             {/* Three-Step Process */}
             <div className="max-w-6xl mx-auto">
-                <div className="bg-gray-50 rounded-lg p-8">
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div className="bg-gray-50 rounded-lg p-4 lg:p-8">
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
                         {/* Step 1: Project Evaluation */}
                         <div className="text-center">
                             {/* Image Placeholder */}

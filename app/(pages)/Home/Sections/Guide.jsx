@@ -14,10 +14,10 @@ export default function Guide() {
             </div>
 
             {/* Content Section */}
-            <div className="flex flex-col lg:flex-row gap-12 max-w-7xl mx-auto">
+            <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 max-w-7xl mx-auto">
                 {/* Google Maps Embed */}
                 <div className="lg:w-2/3">
-                    <div className="bg-gray-100 rounded-lg p-4 h-96 flex items-center justify-center">
+                    <div className="bg-gray-100 rounded-lg p-4 h-64 lg:h-96 flex items-center justify-center">
                         <div className="text-center text-gray-600">
                             <div className="text-6xl mb-4">🗺️</div>
                             <p className="text-lg font-semibold">Google My Maps Embed</p>

@@ -8,7 +8,7 @@ export default function Guide2() {
             
             {/* Testimonial Overlay */}
             <div className="absolute inset-0 flex items-center justify-center">
-                <div className="bg-white bg-opacity-90 p-8 rounded-lg shadow-lg w-1/2 h-1/2 flex flex-col justify-center">
+                <div className="bg-white bg-opacity-90 p-4 lg:p-8 rounded-lg shadow-lg w-4/5 lg:w-1/2 h-3/4 lg:h-1/2 flex flex-col justify-center">
                     <p className="text-orange-600 text-lg mb-2 text-center">
                         &quot;This company transformed our home beyond our wildest dreams.&quot;
                     </p>

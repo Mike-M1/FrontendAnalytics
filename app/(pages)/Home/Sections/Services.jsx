@@ -15,11 +15,11 @@ export default function Services() {
 
             {/* Services Grid */}
             <div className="max-w-6xl mx-auto">
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-6">
                     {/* Row 1 */}
                     {/* Custom Homes & Additions */}
                     <div className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm">
-                        <div className="flex h-48">
+                        <div className="flex h-40 lg:h-48">
                             <div className="w-2/3 bg-gradient-to-br from-blue-200 to-blue-300 flex items-center justify-center">
                                 <div className="text-center text-gray-700">
                                     <div className="text-4xl mb-2">🏠</div>
@@ -36,7 +36,7 @@ export default function Services() {
 
                     {/* Kitchens & Baths */}
                     <div className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm">
-                        <div className="flex h-48">
+                        <div className="flex h-40 lg:h-48">
                             <div className="w-2/3 bg-gradient-to-br from-gray-200 to-gray-300 flex items-center justify-center">
                                 <div className="text-center text-gray-700">
                                     <div className="text-4xl mb-2">🚿</div>
@@ -53,7 +53,7 @@ export default function Services() {
 
                     {/* Exterior Renovations */}
                     <div className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm">
-                        <div className="flex h-48">
+                        <div className="flex h-40 lg:h-48">
                             <div className="w-2/3 bg-gradient-to-br from-green-200 to-green-300 flex items-center justify-center">
                                 <div className="text-center text-gray-700">
                                     <div className="text-4xl mb-2">🏡</div>
@@ -71,7 +71,7 @@ export default function Services() {
                     {/* Row 2 */}
                     {/* Decks & Outdoor Living */}
                     <div className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm">
-                        <div className="flex h-48">
+                        <div className="flex h-40 lg:h-48">
                             <div className="w-2/3 bg-gradient-to-br from-yellow-200 to-yellow-300 flex items-center justify-center">
                                 <div className="text-center text-gray-700">
                                     <div className="text-4xl mb-2">🌅</div>
@@ -88,7 +88,7 @@ export default function Services() {
 
                     {/* Interior Remodeling */}
                     <div className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm">
-                        <div className="flex h-48">
+                        <div className="flex h-40 lg:h-48">
                             <div className="w-2/3 bg-gradient-to-br from-purple-200 to-purple-300 flex items-center justify-center">
                                 <div className="text-center text-gray-700">
                                     <div className="text-4xl mb-2">🛋️</div>
@@ -105,7 +105,7 @@ export default function Services() {
 
                     {/* Light Commercial */}
                     <div className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm">
-                        <div className="flex h-48">
+                        <div className="flex h-40 lg:h-48">
                             <div className="w-2/3 bg-gradient-to-br from-indigo-200 to-indigo-300 flex items-center justify-center">
                                 <div className="text-center text-gray-700">
                                     <div className="text-4xl mb-2">🏢</div>
