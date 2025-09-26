@@ -3,6 +3,7 @@ import "./globals.css";
 import PlausibleProvider from "next-plausible";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
+import { PostHogProvider } from "./providers";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -26,11 +27,12 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <PlausibleProvider domain="frontendanalytics-8jsn.onrender.com" trackLocalhost enabled>
-          <Navbar />
+        <PostHogProvider>
+           <Navbar />
           {children}
           <Footer />
-        </PlausibleProvider>
+        </PostHogProvider>
+         
       </body>
     </html>
   );
