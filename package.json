@@ -9,7 +9,11 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@plausible-analytics/tracker": "^0.4.3",
+    "embla-carousel-autoplay": "^8.6.0",
+    "framer-motion": "^12.23.22",
     "next": "15.5.4",
+    "next-plausible": "^3.12.4",
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "react-ga4": "^2.1.0",
