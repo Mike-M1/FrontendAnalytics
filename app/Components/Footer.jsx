@@ -1,7 +1,11 @@
-import React from 'react'
+'use client';
+import React, { useState } from 'react';
+import Eval from '@/app/(pages)/Home/Sections/Eval';
 
 export default function Footer() {
+    const [isEvalOpen, setIsEvalOpen] = useState(false);
     return (
+        <div>
         <footer className="bg-black text-white py-16 px-6">
             <div className="max-w-6xl mx-auto">
                 {/* Main Footer Content */}
@@ -20,7 +24,10 @@ export default function Footer() {
                             <button className="bg-gray-400 text-black px-6 py-2 rounded hover:bg-gray-500">
                                 Call Now!
                             </button>
-                            <button className="bg-gray-600 text-white px-6 py-2 rounded hover:bg-gray-700">
+                            <button 
+                                onClick={() => setIsEvalOpen(true)}
+                                className="bg-gray-600 text-white px-6 py-2 rounded hover:bg-gray-700"
+                            >
                                 Request Evaluation
                             </button>
                         </div>
@@ -72,5 +79,8 @@ export default function Footer() {
                 </div>
             </div>
         </footer>
+        {/* Evaluation Modal */}
+        <Eval isOpen={isEvalOpen} onClose={() => setIsEvalOpen(false)} />
+        </div>
     )
 }

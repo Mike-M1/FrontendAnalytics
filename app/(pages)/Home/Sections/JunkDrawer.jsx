@@ -1,6 +1,9 @@
-import React from 'react'
+'use client';
+import React, { useState } from 'react';
+import Eval from './Eval';
 
 export default function JunkDrawer() {
+    const [isEvalOpen, setIsEvalOpen] = useState(false);
     return (
         <div className="bg-gray-100 py-16 px-6">
             {/* Main Title */}
@@ -75,11 +78,17 @@ export default function JunkDrawer() {
                     <button className="bg-gray-400 text-black px-8 py-3 rounded hover:bg-gray-500">
                         Call Now!
                     </button>
-                    <button className="bg-gray-600 text-white px-8 py-3 rounded hover:bg-gray-700">
+                    <button 
+                        onClick={() => setIsEvalOpen(true)}
+                        className="bg-gray-600 text-white px-8 py-3 rounded hover:bg-gray-700"
+                    >
                         Request Evaluation
                     </button>
                 </div>
             </div>
+            {/* Evaluation Modal */}
+        {/* Evaluation Modal */}
+        <Eval isOpen={isEvalOpen} onClose={() => setIsEvalOpen(false)} />
         </div>
     )
 }
