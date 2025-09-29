@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Guide() {
+export default function MobileGuide() {
     return (
         <div className="bg-white py-16 px-6">
             {/* Main Text Section */}

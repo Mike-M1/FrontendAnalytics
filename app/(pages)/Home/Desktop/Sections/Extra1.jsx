@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Extra1() {
+export default function DesktopExtra1() {
     return (
         <div className="flex flex-col lg:flex-row">
             {/* Left Section - Company Values (White Background) */}

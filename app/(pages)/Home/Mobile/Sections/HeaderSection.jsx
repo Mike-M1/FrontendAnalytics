@@ -3,21 +3,21 @@ import { useState } from 'react';
 import FadeCarousel from "@/app/Components/FadeCarousel";
 import Eval from "./Eval";
 
-export default function HeaderSection() {
+export default function MobileHeaderSection() {
     const [isEvalOpen, setIsEvalOpen] = useState(false);
     
     return (
         <>
-            <main className="flex flex-col lg:flex-row">
+            <main className="flex flex-col lg:flex-row h-fit">
                 {/* Left Section - Kitchen Image */}
-                <div className="lg:w-1/2">
-                    <div className="relative h-96 lg:h-screen">
+                <div className="lg:w-[60%]">
+                    <div className="relative h-96 lg:h-fit">
                         <FadeCarousel />
                     </div>
                 </div>
 
                 {/* Right Section - Text and CTAs */}
-                <div className="lg:w-1/2 flex items-center justify-center p-12">
+                <div className="lg:w-[40%] flex items-center justify-center p-12">
                     <div className="text-center lg:text-left">
                         <h1 className="text-4xl lg:text-5xl font-bold text-black mb-4">
                             Remodeling and Building Homes to Fit Your Lifestyle

@@ -22,7 +22,7 @@ export default function FadeCarousel() {
     }, []);
     
     return (
-        <div className="relative h-96 lg:h-screen w-full overflow-hidden shadow-lg">
+        <div className="relative h-96 lg:h-[80vh] w-full overflow-hidden shadow-lg">
             <AnimatePresence mode="wait">
                 <motion.img 
                 key={images[index]}

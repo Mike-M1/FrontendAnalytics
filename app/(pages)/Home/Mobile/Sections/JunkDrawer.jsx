@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import Eval from './Eval';
 
-export default function JunkDrawer() {
+export default function MobileJunkDrawer() {
     const [isEvalOpen, setIsEvalOpen] = useState(false);
     return (
         <div className="bg-gray-100 py-16 px-6">

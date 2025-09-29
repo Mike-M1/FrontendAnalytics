@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Plan() {
+export default function MobilePlan() {
     return (
         <div className="bg-white py-16 px-6">
             {/* Header Section */}

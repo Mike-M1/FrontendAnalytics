@@ -1,6 +1,6 @@
 'use client';
 import React, { useState } from 'react';
-import Eval from '@/app/(pages)/Home/Sections/Eval';
+import Eval from '@/app/(pages)/Home/Desktop/Sections/Eval';
 
 export default function Footer() {
     const [isEvalOpen, setIsEvalOpen] = useState(false);

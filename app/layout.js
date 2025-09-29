@@ -1,9 +1,9 @@
+
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import PlausibleProvider from "next-plausible";
+import ClientProvider from "./ClientProvider";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
-import { PostHogProvider } from "./providers";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -27,11 +27,13 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <PostHogProvider>
+        
+          <ClientProvider>
            <Navbar />
           {children}
           <Footer />
-        </PostHogProvider>
+          </ClientProvider>
+        
          
       </body>
     </html>
