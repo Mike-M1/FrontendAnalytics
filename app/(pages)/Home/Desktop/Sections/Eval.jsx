@@ -108,7 +108,7 @@ export default function DesktopEval({ isOpen, onClose }) {
               <textarea 
                 value={answer}
                 onChange={(e) => setAnswer(e.target.value)}
-                className="w-full p-6 text-base border-0 bg-gray-50 rounded-2xl resize-none focus:outline-none focus:ring-2 focus:ring-gray-400 focus:bg-white transition-all duration-300 placeholder-gray-400 font-light"
+                className="w-full p-6 text-base text-black border-0 bg-gray-50 rounded-2xl resize-none focus:outline-none focus:ring-2 focus:ring-gray-400 focus:bg-white transition-all duration-300 placeholder-gray-400 font-light"
                 placeholder="Share your thoughts..."
                 rows={6}
                 required

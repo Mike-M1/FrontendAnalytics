@@ -2,11 +2,13 @@
 import { useRouter } from "next/navigation";
 import Image from "next/image";
 import { useState, useEffect } from "react";
+import Eval from "@/app/(pages)/Home/Desktop/Sections/Eval";
 
 export default function Navbar() {
     const router = useRouter();
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [isMobile, setIsMobile] = useState(false);
+    const [isEvalOpen, setIsEvalOpen] = useState(false);
 
     useEffect(() => {
         const checkScreenSize = () => {
@@ -39,7 +41,7 @@ export default function Navbar() {
                     </nav>
                     <div className="flex space-x-3">
                         <button className="bg-gray-400 text-white px-4 py-2 rounded hover:bg-gray-500">Call Now!</button>
-                        <button className="bg-gray-600 text-white px-4 py-2 rounded hover:bg-gray-700">Request Evaluation</button>
+                        <button className="bg-gray-600 text-white px-4 py-2 rounded hover:bg-gray-700" onClick={() => setIsEvalOpen(true)}>Request Evaluation</button>
                     </div>
                 </div>
             )}
@@ -84,11 +86,13 @@ export default function Navbar() {
                         
                         <div className="flex flex-col space-y-4">
                             <button className="bg-gray-400 text-white px-8 py-3 rounded text-lg">Call Now!</button>
-                            <button className="bg-gray-600 text-white px-8 py-3 rounded text-lg">Request Evaluation</button>
+                            <button className="bg-gray-600 text-white px-8 py-3 rounded text-lg" onClick={() => setIsEvalOpen(true)}>Request Evaluation</button>
                         </div>
                     </div>
                 </div>
             )}
+            {/* Evaluation Modal */}
+            <Eval isOpen={isEvalOpen} onClose={() => setIsEvalOpen(false)} />
         </header>
     )
 }
