@@ -9,6 +9,7 @@ import MobileExPara from "./Mobile/Sections/ExPara";
 import MobileJunkDrawer from "./Mobile/Sections/JunkDrawer";
 import MobileServices from "./Mobile/Sections/Services";
 import MobileExtra1 from "./Mobile/Sections/Extra1";
+import MobileBottomSec from "./Mobile/Sections/BottomSec";
 
 import DesktopHeaderSection from "./Desktop/Sections/HeaderSection";
 import DesktopStakes from "./Desktop/Sections/Stakes";
@@ -53,28 +54,21 @@ export default function Home() {
                     <MobileJunkDrawer />
                     <MobileServices />
                     <MobileExtra1/>
-
-                    {/* 
-                    
-                    
-                    
-                    
-                    <MobileJunkDrawer />
-                    <MobileServices />
-                    <MobileExtra1/> */}
+                    <MobileBottomSec />
                 </>
             ) : (
                 // Desktop Components
                 <>
                     <DesktopHeaderSection />
                     <DesktopStakes />
-                    <DesktopGuide />
-                    <DesktopGuide2 />
-                    <DesktopPlan />
-                    <DesktopExPara />
+                    <MobileGuide />
+                    <MobileGuide2 />
+                    <MobilePlan />
+                    <MobileExPara />
                     <DesktopJunkDrawer />
-                    <DesktopServices />
-                    <DesktopExtra1/>
+                    <MobileServices />
+                    <MobileExtra1/>
+                    <MobileBottomSec />
                 </>
             )}
         </div>

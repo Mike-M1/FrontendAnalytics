@@ -20,12 +20,8 @@ export default function MobileServices() {
                     {/* Custom Homes & Additions */}
                     <div className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm">
                         <div className="flex flex-col">
-                            <div className="h-40 bg-gradient-to-br from-blue-200 to-blue-300 flex items-center justify-center">
-                                <div className="text-center text-gray-700">
-                                    <div className="text-4xl mb-2">🏠</div>
-                                    <p className="text-sm font-semibold">Custom Home</p>
-                                </div>
-                            </div>
+                            <img src="/custom.avif"  alt="Custom Homes & Additions"
+                             className='w-full  mx-auto mb-4 object-contain' />
                             <div className="p-4">
                                 <h3 className="text-lg font-semibold text-black text-center">
                                     Custom Homes & Additions
@@ -37,12 +33,8 @@ export default function MobileServices() {
                     {/* Kitchens & Baths */}
                     <div className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm">
                         <div className="flex flex-col">
-                            <div className="h-40 bg-gradient-to-br from-gray-200 to-gray-300 flex items-center justify-center">
-                                <div className="text-center text-gray-700">
-                                    <div className="text-4xl mb-2">🚿</div>
-                                    <p className="text-sm font-semibold">Modern Bath</p>
-                                </div>
-                            </div>
+                            <img src="/kitchen.jpeg"  alt="Kitchens & Baths"
+                             className='w-full  mx-auto mb-4 object-contain' />
                             <div className="p-4">
                                 <h3 className="text-lg font-semibold text-black text-center">
                                     Kitchens & Baths
@@ -54,12 +46,8 @@ export default function MobileServices() {
                     {/* Exterior Renovations */}
                     <div className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm">
                         <div className="flex flex-col">
-                            <div className="h-40 bg-gradient-to-br from-green-200 to-green-300 flex items-center justify-center">
-                                <div className="text-center text-gray-700">
-                                    <div className="text-4xl mb-2">🏡</div>
-                                    <p className="text-sm font-semibold">Exterior</p>
-                                </div>
-                            </div>
+                            <img src="/externalrenovations.avif"  alt="Exterior Renovations"
+                             className='w-full  mx-auto mb-4 object-contain' />
                             <div className="p-4">
                                 <h3 className="text-lg font-semibold text-black text-center">
                                     Exterior Renovations
@@ -72,12 +60,8 @@ export default function MobileServices() {
                     {/* Decks & Outdoor Living */}
                     <div className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm">
                         <div className="flex flex-col">
-                            <div className="h-40 bg-gradient-to-br from-yellow-200 to-yellow-300 flex items-center justify-center">
-                                <div className="text-center text-gray-700">
-                                    <div className="text-4xl mb-2">🌅</div>
-                                    <p className="text-sm font-semibold">Outdoor Living</p>
-                                </div>
-                            </div>
+                            <img src="/decks.avif"  alt="Decks & Outdoor Living"
+                             className='w-full  mx-auto mb-4 object-contain' />
                             <div className="p-4">
                                 <h3 className="text-lg font-semibold text-black text-center">
                                     Decks & Outdoor Living
@@ -89,12 +73,8 @@ export default function MobileServices() {
                     {/* Interior Remodeling */}
                     <div className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm">
                         <div className="flex flex-col">
-                            <div className="h-40 bg-gradient-to-br from-purple-200 to-purple-300 flex items-center justify-center">
-                                <div className="text-center text-gray-700">
-                                    <div className="text-4xl mb-2">🛋️</div>
-                                    <p className="text-sm font-semibold">Interior</p>
-                                </div>
-                            </div>
+                            <img src="/interior.avif"  alt="Interior Remodeling"
+                             className='w-full  mx-auto mb-4 object-contain' />
                             <div className="p-4">
                                 <h3 className="text-lg font-semibold text-black text-center">
                                     Interior Remodeling
@@ -106,12 +86,8 @@ export default function MobileServices() {
                     {/* Light Commercial */}
                     <div className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm">
                         <div className="flex flex-col">
-                            <div className="h-40 bg-gradient-to-br from-indigo-200 to-indigo-300 flex items-center justify-center">
-                                <div className="text-center text-gray-700">
-                                    <div className="text-4xl mb-2">🏢</div>
-                                    <p className="text-sm font-semibold">Commercial</p>
-                                </div>
-                            </div>
+                            <img src="/commercial.avif"  alt="Light Commercial"
+                             className='w-full  mx-auto mb-4 object-contain' />
                             <div className="p-4">
                                 <h3 className="text-lg font-semibold text-black text-center">
                                     Light Commercial

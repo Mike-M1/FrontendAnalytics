@@ -52,7 +52,7 @@ export default function MobileStakes() {
                     />
                 </div>
                 
-                <div className="absolute bottom-8 left-8 right-8 bg-black bg-opacity-70 p-8 rounded-2xl">
+                <div className="absolute bottom-8 left-8 right-8 bg-black bg-opacity-[40%] p-8 rounded-2xl">
                     <h3 className="text-white text-2xl font-bold mb-6 text-center">
                         Creating Homes that Fit You
                     </h3>

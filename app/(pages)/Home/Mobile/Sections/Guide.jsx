@@ -16,69 +16,56 @@ export default function MobileGuide() {
             {/* Content Section */}
             <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 max-w-7xl mx-auto">
                 {/* Google Maps Embed */}
-                <div className="lg:w-2/3">
-                    <div className="bg-gray-100 rounded-lg p-4 h-64 lg:h-96 flex items-center justify-center">
-                        <div className="text-center text-gray-600">
-                            <div className="text-6xl mb-4">🗺️</div>
-                            <p className="text-lg font-semibold">Google My Maps Embed</p>
-                            <p className="text-sm">Service area map with location markers</p>
-                            <p className="text-xs mt-2">Fort Wayne, South Bend, Goshen, Warsaw, Plymouth, etc.</p>
-                        </div>
-                    </div>
+                <div className="lg:w-2/3 flex flex-col justify-center items-center">
+                <iframe src="https://www.google.com/maps/d/embed?mid=10YaPVIAcfuO2Gws15VmAkf63OY4czF4&ehbc=2E312F" style={{border:0, margin: '5px', width: '100%', height: '480px'}} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                
                 </div>
 
                 {/* Industry Association Logos */}
                 <div className="lg:w-1/3">
                     <div className="grid grid-cols-2 gap-6">
                         {/* Top Row */}
-                        <div className="bg-blue-600 text-white p-4 rounded text-center">
-                            <div className="text-xs font-bold">BBB</div>
-                            <div className="text-xs">ACCREDITED</div>
-                            <div className="text-xs">BUSINESS</div>
+                        <div className="border-2 border-white rounded-lg flex flex-col justify-center items-center">
+                            <img src="/guidelogos/BBB.avif" alt="BBB"
+                             className='w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 object-contain' />
                         </div>
-                        <div className="bg-green-600 text-white p-4 rounded text-center">
-                            <div className="text-xs font-bold">Qualified</div>
-                            <div className="text-xs">Remodeler</div>
-                            <div className="text-lg font-bold">500</div>
-                            <div className="text-xs">2024</div>
+                        <div className="border-2 border-white rounded-lg flex flex-col justify-center items-center">
+                            <img src="/guidelogos/500logo.avif" alt="Qualified"
+                             className='w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 object-contain' />
+                            
                         </div>
 
                         {/* Middle Row */}
-                        <div className="bg-blue-500 text-white p-4 rounded text-center">
-                            <div className="text-xs font-bold">NARI</div>
-                            <div className="text-xs">MEMBER</div>
+                        <div className="border-2 border-white rounded-lg flex flex-col justify-center items-center">
+                            <img src="/guidelogos/NARI.avif" alt="NARI"
+                             className='w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 object-contain' />
                         </div>
-                        <div className="bg-blue-700 text-white p-4 rounded text-center">
-                            <div className="text-xs font-bold">NAHB</div>
-                            <div className="text-xs">National Association</div>
-                            <div className="text-xs">of Home Builders</div>
+                        <div className="border-2 border-white rounded-lg flex flex-col justify-center items-center">
+                            <img src="/guidelogos/Nahb.avif" alt="NAHB"
+                             className='w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 object-contain' />
                         </div>
 
                         {/* Bottom Row */}
-                        <div className="bg-blue-600 text-white p-4 rounded text-center">
+                        <div className="border-2 border-white rounded-lg flex flex-col justify-center items-center">
                             <div className="text-xs font-bold">IBA</div>
-                            <div className="text-xs">Indiana Builders</div>
-                            <div className="text-xs">Association</div>
-                            <div className="text-xs">Since 1952</div>
+                            <img src="/guidelogos/IBA.avif" alt="IBA"
+                             className='w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 object-contain' />
                         </div>
-                        <div className="bg-blue-500 text-white p-4 rounded text-center">
-                            <div className="text-xs font-bold">BANI</div>
-                            <div className="text-xs">Builders Association</div>
-                            <div className="text-xs">of Northeast Indiana</div>
+                        <div className="border-2 border-white rounded-lg flex flex-col justify-center items-center">
+                            <img src="/guidelogos/Bani.avif" alt="BANI"
+                             className='w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 object-contain' />
                         </div>
                     </div>
 
                     {/* Additional Logos Row */}
                     <div className="grid grid-cols-2 gap-6 mt-6">
-                        <div className="bg-amber-700 text-white p-4 rounded text-center">
-                            <div className="text-xs font-bold">NADRA</div>
-                            <div className="text-xs">North American Deck</div>
-                            <div className="text-xs">and Railing Association</div>
+                        <div className="border-2 border-white rounded-lg flex flex-col justify-center items-center">
+                            <img src="/guidelogos/nadra.avif" alt="NADRA"
+                             className='w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 object-contain' />
                         </div>
-                        <div className="bg-blue-600 text-white p-4 rounded text-center">
-                            <div className="text-xs font-bold">NKBA</div>
-                            <div className="text-xs">National Kitchen</div>
-                            <div className="text-xs">& Bath Association</div>
+                        <div className="border-2 border-white rounded-lg flex flex-col justify-center items-center">
+                            <img src="/guidelogos/nkba.avif" alt="NKBA"
+                             className='w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 object-contain' />
                         </div>
                     </div>
                 </div>

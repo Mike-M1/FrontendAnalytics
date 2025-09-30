@@ -20,27 +20,22 @@ export default function MobilePlan() {
                         {/* Step 1: Project Evaluation */}
                         <div className="text-center">
                             {/* Image Placeholder */}
-                            <div className="bg-gradient-to-br from-yellow-100 to-yellow-200 rounded-lg h-64 mb-6 flex items-center justify-center">
-                                <div className="text-center text-gray-700">
-                                    <div className="text-6xl mb-4">📏</div>
-                                    <p className="text-lg font-semibold">Planning Tools</p>
-                                    <p className="text-sm">Tape measure, blueprints, laser meter</p>
-                                </div>
-                            </div>
+                            <img src="/plan1.avif" alt="Project Evaluation" 
+                                 className="w-full max-w-xs mx-auto mb-4 object-contain" />
                             
                             {/* Title */}
-                            <h3 className="text-2xl font-bold text-black mb-4 text-left">
+                            <h3 className="text-2xl font-bold text-black mb-4">
                                 1. Project Evaluation
                             </h3>
                             
                             {/* Bulleted List */}
-                            <ul className="text-left space-y-2">
-                                <li className="flex items-start">
-                                    <span className="w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                            <ul className="space-y-2">
+                                <li className="flex items-center justify-center">
+                                    <span className="w-2 h-2 bg-black rounded-full mr-3 flex-shrink-0"></span>
                                     define objectives and scope of work
                                 </li>
-                                <li className="flex items-start">
-                                    <span className="w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                                <li className="flex items-center justify-center">
+                                    <span className="w-2 h-2 bg-black rounded-full mr-3 flex-shrink-0"></span>
                                     determine budgets and timelines
                                 </li>
                             </ul>
@@ -49,27 +44,22 @@ export default function MobilePlan() {
                         {/* Step 2: Design & Plan */}
                         <div className="text-center">
                             {/* Image Placeholder */}
-                            <div className="bg-gradient-to-br from-gray-100 to-gray-200 rounded-lg h-64 mb-6 flex items-center justify-center">
-                                <div className="text-center text-gray-700">
-                                    <div className="text-6xl mb-4">🎨</div>
-                                    <p className="text-lg font-semibold">Material Samples</p>
-                                    <p className="text-sm">Marble, wood, white samples</p>
-                                </div>
-                            </div>
+                            <img src="/plan2.avif" alt="Design & Plan" 
+                                 className="w-full max-w-xs mx-auto mb-4 object-contain" />
                             
                             {/* Title */}
-                            <h3 className="text-2xl font-bold text-black mb-4 text-left">
+                            <h3 className="text-2xl font-bold text-black mb-4">
                                 2. Design & Plan
                             </h3>
                             
                             {/* Bulleted List */}
-                            <ul className="text-left space-y-2">
-                                <li className="flex items-start">
-                                    <span className="w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                            <ul className="space-y-2">
+                                <li className="flex items-center justify-center">
+                                    <span className="w-2 h-2 bg-black rounded-full mr-3 flex-shrink-0"></span>
                                     create schematic drawings and renderings
                                 </li>
-                                <li className="flex items-start">
-                                    <span className="w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                                <li className="flex items-center justify-center">
+                                    <span className="w-2 h-2 bg-black rounded-full mr-3 flex-shrink-0"></span>
                                     select products, materials, and features
                                 </li>
                             </ul>
@@ -78,27 +68,22 @@ export default function MobilePlan() {
                         {/* Step 3: Build and Transform */}
                         <div className="text-center">
                             {/* Image Placeholder */}
-                            <div className="bg-gradient-to-br from-orange-100 to-orange-200 rounded-lg h-64 mb-6 flex items-center justify-center">
-                                <div className="text-center text-gray-700">
-                                    <div className="text-6xl mb-4">🔨</div>
-                                    <p className="text-lg font-semibold">Construction Site</p>
-                                    <p className="text-sm">Framing, ladders, scaffolding</p>
-                                </div>
-                            </div>
+                            <img src="/plan3.avif" alt="Build and Transform" 
+                                 className="w-full max-w-xs mx-auto mb-4 object-contain" />
                             
                             {/* Title */}
-                            <h3 className="text-2xl font-bold text-black mb-4 text-left">
+                            <h3 className="text-2xl font-bold text-black mb-4">
                                 3. Build and Transform
                             </h3>
                             
                             {/* Bulleted List */}
-                            <ul className="text-left space-y-2">
-                                <li className="flex items-start">
-                                    <span className="w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                            <ul className="space-y-2">
+                                <li className="flex items-center justify-center">
+                                    <span className="w-2 h-2 bg-black rounded-full mr-3 flex-shrink-0"></span>
                                     make your vision a reality through carefully crafted spaces
                                 </li>
-                                <li className="flex items-start">
-                                    <span className="w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                                <li className="flex items-center justify-center">
+                                    <span className="w-2 h-2 bg-black rounded-full mr-3 flex-shrink-0"></span>
                                     live life in the manner you envision
                                 </li>
                             </ul>

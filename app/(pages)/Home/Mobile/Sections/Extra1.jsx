@@ -117,10 +117,10 @@ export default function MobileExtra1() {
                     </h2>
                     
                     {/* Blog Post Previews */}
-                    <div className="space-y-4 mb-8">
+                    <div className="space-y-4 mb-8 flex flex-col gap-4 items-center justify-center">
                         {isLoading ? (
                             // Loading skeleton
-                            <div className="space-y-4">
+                            <div className="space-y-4 flex flex-col gap-4 items-center justify-center">
                                 {[...Array(4)].map((_, index) => (
                                     <div key={index} className="bg-white text-black p-4 rounded-lg animate-pulse">
                                         <div className="flex items-start justify-between gap-3">
@@ -136,9 +136,9 @@ export default function MobileExtra1() {
                             </div>
                         ) : blogPosts.length > 0 ? (
                             blogPosts.map((post, index) => (
-                                <Link key={index} href={`/Blog/${post.id}`} className="block">
-                                    <div className="bg-white text-black p-4 rounded-lg hover:bg-gray-50 transition-colors duration-200">
-                                        <div className="flex items-start justify-between gap-3">
+                                <Link key={index} href={`/Blog/${post.id}`} className="block w-full">
+                                    <div className="bg-white text-black p-4 rounded-lg hover:bg-gray-50 transition-colors duration-200 w-full">
+                                        <div className="flex items-start justify-between gap-3 w-full">
                                             <div className="flex-1 min-w-0">
                                                 <h3 className="text-base font-semibold mb-1 line-clamp-2">
                                                     {post.Title || 'Untitled Post'}
