@@ -153,7 +153,7 @@ export default function MobileExtra1() {
                                             <div className="w-12 h-12 bg-gradient-to-br from-gray-200 to-gray-300 rounded flex items-center justify-center flex-shrink-0">
                                                 {post.Blog_Image ? (
                                                     <img
-                                                        src={`http://44.222.202.60:8055/assets/${post.Blog_Image}`}
+                                                        src={`/api/image/${post.Blog_Image}`}
                                                         alt={post.Title || 'Blog Image'}
                                                         width={100}
                                                         height={100}

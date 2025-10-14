@@ -79,7 +79,7 @@ export default async function BlogPost({ params }) {
                     {post.Blog_Image && (
                         <div className="relative h-64 lg:h-96 w-full mb-8 rounded-lg overflow-hidden">
                             <img
-                                src={`http://44.222.202.60:8055/assets/${post.Blog_Image}`}
+                                src={`/api/image/${post.Blog_Image}`}
                                 alt={post.Title || 'Blog Image'}
                                 width={100}
                                 height={100}

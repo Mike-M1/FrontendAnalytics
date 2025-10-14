@@ -47,7 +47,7 @@ export default async function Blog() {
                                 <div className="lg:w-1/3">
                                     <div className="relative h-48 lg:h-full lg:min-h-[200px] w-full">
                                         <img
-                                            src={`http://44.222.202.60:8055/assets/${post.Blog_Image}`}
+                                            src={`/api/image/${post.Blog_Image}`}
                                             alt={post.Title || 'Blog Image'}
                                             width={100}
                                             height={100}
